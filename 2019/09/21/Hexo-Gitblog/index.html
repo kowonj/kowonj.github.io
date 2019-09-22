@@ -12,18 +12,18 @@
     
         <meta name="keywords" content="hexo,GitHub blog,Static site">
     
-    <meta name="description" content="Hexo: Hexo documentation, Hexo troubleshooting, Hexo GitHub, Hexo Themes, Hexo Twitter. Git RepositoryCreate two repositoriesYou need two repositories:   Repo for framework: a. Create a repo (private)">
+    <meta name="description" content="Links: Hexo: Hexo documentation, Hexo troubleshooting, Hexo GitHub, Hexo Themes, Hexo Twitter. Git RepositoryCreate two repositoriesYou need two repositories:   Repo for framework: a. Create a repo (p">
 <meta name="keywords" content="hexo,GitHub blog,Static site">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Starting GitHub blog with Hexo">
 <meta property="og:url" content="https://kowonj.github.io/2019/09/21/Hexo-Gitblog/index.html">
 <meta property="og:site_name" content="kowonj">
-<meta property="og:description" content="Hexo: Hexo documentation, Hexo troubleshooting, Hexo GitHub, Hexo Themes, Hexo Twitter. Git RepositoryCreate two repositoriesYou need two repositories:   Repo for framework: a. Create a repo (private)">
+<meta property="og:description" content="Links: Hexo: Hexo documentation, Hexo troubleshooting, Hexo GitHub, Hexo Themes, Hexo Twitter. Git RepositoryCreate two repositoriesYou need two repositories:   Repo for framework: a. Create a repo (p">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-09-22T13:22:47.925Z">
+<meta property="og:updated_time" content="2019-09-22T15:27:09.509Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Starting GitHub blog with Hexo">
-<meta name="twitter:description" content="Hexo: Hexo documentation, Hexo troubleshooting, Hexo GitHub, Hexo Themes, Hexo Twitter. Git RepositoryCreate two repositoriesYou need two repositories:   Repo for framework: a. Create a repo (private)">
+<meta name="twitter:description" content="Links: Hexo: Hexo documentation, Hexo troubleshooting, Hexo GitHub, Hexo Themes, Hexo Twitter. Git RepositoryCreate two repositoriesYou need two repositories:   Repo for framework: a. Create a repo (p">
     
 
     
@@ -51,6 +51,7 @@
 
 
     <link rel="stylesheet" href="/libs/custom/css/etc.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.css">
 </head>
 </html>
 <body>
@@ -169,11 +170,11 @@
         
         
         <div class="article-entry" itemprop="articleBody">
-            <p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>: <a href="https://hexo.io/docs/" target="_blank" rel="noopener">Hexo documentation</a>, <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">Hexo troubleshooting</a>, <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">Hexo GitHub</a>, <a href="https://hexo.io/themes/" target="_blank" rel="noopener">Hexo Themes</a>, <a href="https://twitter.com/hexojs" target="_blank" rel="noopener">Hexo Twitter</a>.</p>
+            <p>Links: <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>: <a href="https://hexo.io/docs/" target="_blank" rel="noopener">Hexo documentation</a>, <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">Hexo troubleshooting</a>, <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">Hexo GitHub</a>, <a href="https://hexo.io/themes/" target="_blank" rel="noopener">Hexo Themes</a>, <a href="https://twitter.com/hexojs" target="_blank" rel="noopener">Hexo Twitter</a>.</p>
 <h1 id="Git-Repository"><a href="#Git-Repository" class="headerlink" title="Git Repository"></a>Git Repository</h1><h3 id="Create-two-repositories"><a href="#Create-two-repositories" class="headerlink" title="Create two repositories"></a>Create two repositories</h3><p>You need two repositories: </p>
 <ol>
 <li><p>Repo for framework:<br> a. Create a repo (private) ex. myBlog<br> b. git clone the repo to local<br> c. Then, branch off from master</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git checkout master</span><br><span class="line">$ git checkout -b initial-setup</span><br></pre></td></tr></table></figure>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git checkout master </span><br><span class="line">$ git checkout -b initial-setup</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li>This is the directory you need to install Hexo framework.<br><br><br></li>
@@ -233,16 +234,16 @@ After above steps, the following folder structure generated:
 </li>
 </ul>
 <br>
-## 3. Run server: http://localhost:4000
 
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="3-Run-server-http-localhost-4000"><a href="#3-Run-server-http-localhost-4000" class="headerlink" title="3. Run server: http://localhost:4000"></a>3. Run server: <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
 <br>
-## 4. Install plugin to publish and deploy to GitHub page
 
-<ul>
-<li><strong>a. Install hexo-deployer-git</strong><br>
+<h2 id="4-Install-plugin-to-publish-and-deploy-to-GitHub-page"><a href="#4-Install-plugin-to-publish-and-deploy-to-GitHub-page" class="headerlink" title="4. Install plugin to publish and deploy to GitHub page"></a>4. Install plugin to publish and deploy to GitHub page</h2><ul>
+<li><p><strong>a. Install hexo-deployer-git</strong></p>
+<br>
+
   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 
 </li>
@@ -265,13 +266,10 @@ After above steps, the following folder structure generated:
 
 <br>
 ### Build
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p><em>Same as</em> </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate  <span class="comment"># Same as: $ hexo g</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a><br><br></p>
-<h3 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy  <span class="comment"># Same as: $ hexo d</span></span><br></pre></td></tr></table></figure>
 
 <br>
 ### Build and deploy 
@@ -292,10 +290,18 @@ After above steps, the following folder structure generated:
 </li>
 </ul>
 <hr>
+<h1 id="If-you-git-reset-commits-on-the-publishing-repo"><a href="#If-you-git-reset-commits-on-the-publishing-repo" class="headerlink" title="If you git reset commits on the publishing repo:"></a>If you git reset commits on the publishing repo:</h1><h4 id="In-the-root-folder-for-‘-username-github-io’-repo"><a href="#In-the-root-folder-for-‘-username-github-io’-repo" class="headerlink" title="In the root folder for ‘[username].github.io’ repo:"></a>In the root folder for ‘[username].github.io’ repo:</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">git checkout master</span><br><span class="line"></span><br><span class="line">git reset --hard fsd2ed46e623123b6f28925b3sdfe96cce82eaf</span><br><span class="line"></span><br><span class="line">git push --force origin master</span><br><span class="line"></span><br><span class="line"><span class="comment"># Then to prove it (it won't print any diff)</span></span><br><span class="line">git diff master..origin/master</span><br></pre></td></tr></table></figure>
+
 <br>
 
+<h4 id="In-the-root-folder-for-the-framework-for-gitblog-repo"><a href="#In-the-root-folder-for-the-framework-for-gitblog-repo" class="headerlink" title="In the root folder for the framework for gitblog repo:"></a>In the root folder for the framework for gitblog repo:</h4><p>Delete ‘.deploy_git’ folder in the root folder for the framework.</p>
+<p>If you need, re-install ‘hexo-deployer-git’</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 
+<br>
 
+<hr>
+<h3 id="Reference-links"><a href="#Reference-links" class="headerlink" title="Reference links:"></a>Reference links:</h3><p><a href="https://hyunseob.github.io/2016/02/23/start-hexo/" target="_blank" rel="noopener">hyunseob</a>, <a href="http://dogfeet.github.io/articles/2012/github-pages.html" target="_blank" rel="noopener">dogfeet</a><br>Related to Static site: <a href="https://62che.com/blog/vuepress/%EC%A0%95%EC%A0%81-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%83%9D%EC%84%B1%EA%B8%B0%EB%9E%80.html#%EC%84%9C%EB%91%90" target="_blank" rel="noopener">62che</a></p>
 
         </div>
         <footer class="article-footer">
@@ -303,7 +309,7 @@ After above steps, the following folder structure generated:
 
 
 
-    <a data-url="https://kowonj.github.io/2019/09/21/Hexo-Gitblog/" data-id="ck0v0vuev000074vi5pivkha1" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://kowonj.github.io/2019/09/21/Hexo-Gitblog/" data-id="ck0v2nesb00007ovirkkvy0d7" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -381,11 +387,11 @@ After above steps, the following folder structure generated:
         "dateCreated": "2019-09-21",
         "dateModified": "2019-09-22",
         "url": "https://kowonj.github.io/2019/09/21/Hexo-Gitblog/",
-        "description": "Hexo: Hexo documentation, Hexo troubleshooting, Hexo GitHub, Hexo Themes, Hexo Twitter.
+        "description": "Links: Hexo: Hexo documentation, Hexo troubleshooting, Hexo GitHub, Hexo Themes, Hexo Twitter.
 Git RepositoryCreate two repositoriesYou need two repositories: 
 
-Repo for framework: a. Create a repo (private)",
-        "wordCount": 689
+Repo for framework: a. Create a repo (p",
+        "wordCount": 860
     }
 </script>
 
