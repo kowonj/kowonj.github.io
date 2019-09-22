@@ -1,0 +1,59 @@
+/* subposttitle */
+.article-subposttitle {font-size: 12px;
+    text-decoration: none;
+    line-height: 14px;
+    color: #919191;
+    background-color: #282828;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+
+  #main, .archive-year, .date, .article-title, time, .tag-link {
+    color: #bdbdbd !important;
+  }
+
+  #sidebar {
+    background: #fff !important;
+  }
+
+  .toggle.icon {
+    float: right;
+  }
+
+  .main-body-inner #sidebar .sidebar-toggle {
+    background: #004c92 !important;  
+    padding-right: 10px;
+  }
+
+  .main-body-inner #sidebar .sidebar-top p,
+  .main-body-inner #sidebar .sidebar-top i {
+    color: rgba(255,255,255,0.8) !important;
+  }
+
+  .isDisabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    text-decoration: none;
+  }
+
+  .isDisabled > a {
+    pointer-events: none;
+    text-decoration: none;
+  }
+
+  .isSideBarCollapsed,
+  #sidebar.isSideBarCollapsed {
+    background-color: #222 !important;      
+  }
+
+
+  #sidebar.isSideBarCollapsed:before {
+    content: "\f101";
+    font-family: FontAwesome;    
+    position:absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 30px;
+    color: rgba(255,255,255,0.8)
+  }
